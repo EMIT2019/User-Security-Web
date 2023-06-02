@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audit</title>
+    <link rel="stylesheet" type="text/css" href="../styles/header_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/dashboard_header.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/general_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/dashboard_options_styles.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/table_options_styles.css"/>
+</head>
+<body>
+    <header id="header_sec" class="header_section">
+        <div id="header_text_container">
+            <h1 class="title">Audit</h1>
+        </div>
+        <div id="profile_info_container" class="profile_info_container">
+            <h3></h3>
+        </div>
+    </header>
+    <div id="data_container" class="data_container">
+        <div class="table_options">
+            <div class="options">
+                <div class="search_box">
+                    <div>
+                        <input id="txt_author" type="text" placeholder="author's name"/>
+                        <input id="txt_affected_user" type="text" placeholder="affected user's name"/>
+                    </div>
+                    <div>
+                        <input id="btn_search" type="button" value="Search"/>
+                        <input id="btn_show_all" type="button" value="Show All"/>
+                    </div>
+                </div>
+            </div>
+            <div class="data_table">
+                <table id="res_data_table" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <th>ID</th>
+                            <th>Author</th>
+                            <th>Affected User</th>
+                            <th>Username</th>
+                            <th>Name</th>
+                            <th>Lastname</th>
+                            <th>Email</th>
+                            <th>Operation</th>
+                            <th>Date</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="../js/functionality/dashboard_profile_info.js"></script>
+    <script src="../js/functionality/audit.js"></script>
+</body>
+</html>
