@@ -19,7 +19,8 @@ async function saveNewUser(){
                 name: `${txt_name.value}`,
                 lastname: `${txt_lastname.value}`,
                 password: `${txt_password.value}`,
-                email: `${txt_email.value}`
+                email: `${txt_email.value}`,
+                state: 1
             }
             console.log(JSON.stringify(user));
         }
@@ -36,7 +37,6 @@ async function saveNewUser(){
         const myJson = await response.json();
         console.log(myJson);
         if(myJson.status !== 500){
-            setSession(myJson);
             location.href = "user_table.html";
         } else {
             alert('Something went wrong!')
