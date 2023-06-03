@@ -4,6 +4,9 @@ let rowCount;
 let txt_username = document.getElementById('txt_username');
 let btn_search = document.getElementById('btn_search');
 let btn_show_all = document.getElementById('btn_show_all');
+let btn_add_user = document.getElementById('btn_go_add_user');
+
+
 
 
 async function getAllUsers(){
@@ -142,3 +145,7 @@ btn_search.addEventListener("click", () => {
 });
 
 btn_show_all.addEventListener("click", getAllUsers);
+
+btn_add_user.addEventListener("click", ()=>{
+    location.href = "add_user.html";
+});

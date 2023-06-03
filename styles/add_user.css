@@ -1,0 +1,45 @@
+.user_form {
+    width:400px;
+    height:fit-content;
+    padding-top:20px;
+    padding-bottom:20px;
+    border-radius:10px;
+    background-color:#ffffff;
+    margin:60px auto;
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.205);
+}
+
+.user_form input[type="text"]  {
+    width:250px;
+    height:30px;
+    text-align:center;
+    border-radius:5px;
+    border:1px solid #0000004d;
+    margin:20px auto;
+    display:block;
+}
+
+.user_form input[type="password"] {
+    width:250px;
+    height:30px;
+    text-align:center;
+    border-radius:5px;
+    border:1px solid #0000004d;
+    margin:20px auto;
+    display:block;;
+}
+
+.user_form input[type="button"] {
+    width:250px;
+    height:30px;
+    text-align:center;
+    border-radius:5px;
+    border:2px solid #1f883d;
+    background-color:#1f883d;
+    margin:20px auto;
+    display:block;
+    color:#ffffff;
+    font-size:20px;
+    cursor: pointer;
+    font-weight: bolder;
+}
