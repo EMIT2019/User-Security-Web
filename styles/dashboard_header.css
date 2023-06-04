@@ -3,7 +3,7 @@
 }
 
 .profile_info_container {
-    width:300px;
+    width:400px;
     height:inherit;
     float:right;
     display:table;
@@ -17,4 +17,25 @@
     color:#ffffff;
     display:table-cell;
     vertical-align:middle;
+}
+
+.sing_out_container {
+    width:200px;
+    height:inherit;
+    display:flex;
+    align-items:center;
+}
+
+.btn_sing_out {
+    width:100px;
+    height:fit-content;
+    margin:auto;
+    font-family:'Arial';
+    font-size:20px;
+    background-color:#000020;
+    color:#ffffff;
+    font-weight:bold;
+    border:1px solid #000020;
+    cursor: pointer;
+    text-decoration:underline;
 }
